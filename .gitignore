@@ -5,4 +5,3 @@ vendor
 .idea
 .bundle
 .jekyll-cache
-Gemfile.lock
