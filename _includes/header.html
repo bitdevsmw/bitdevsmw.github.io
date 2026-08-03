@@ -1,8 +1,10 @@
 <header class="Header">
     <div class="Header-inner">
         <div class="Header-logo">
-            <a href="{{ site.github.url }}/">{{ site.data.settings.title }}</a>
-        </div>
+    <a href="{{ site.github.url }}/">
+        <img src="{{ site.github.url }}/assets/images/logo.png" alt="{{ site.data.settings.title }}" height="60">
+    </a>
+    </div>
         <nav class="Header-nav">
             {% for item in site.data.settings.menu %}
             {% if item.external %}

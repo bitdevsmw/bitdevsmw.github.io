@@ -19,9 +19,11 @@ html, body {
 }
 
 .Site {
-  max-width: 880px;
   margin: 0 auto;
   padding: 2rem;
+  border: 40px solid #f7931a;
+  min-height: 100vh;
+  box-sizing: border-box;
 }
 
 a {
